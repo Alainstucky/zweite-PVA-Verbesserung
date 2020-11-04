@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tony's Pizza</title>
+</head>
+<body>
+<header>
+
+
+    <nav>
+        <div id="navbar">
+            <div id="logo">
+                <div class="logo">Tony'<span>s</span>Pizza</div>
+            </div>
+            <div id="links">
+                <a href="index.html">main</a>
+                <a href="pizza.html">Pizza</a>
+                <a href="salat.html">Salat</a>
+                <a href="drinks.html">Drinks</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+            <div class="mobile-btn">
+                <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
+            </div>
+        </div>
+    </nav>
+    <!--Modifyed -->
+    <div id="mobile-menu" class="mobile-menu">
+         <div class="mobile-links">
+             <a href="index.html">main</a>
+             <a href="pizza.html">Pizza</a>
+             <a href="salat.html">Salat</a>
+             <a href="drinks.html">Drinks</a>
+             <a href="feedback.html">Feedback</a>
+         </div>
+    </div>
+</header>
+<main id="main-page">
+    <div class="wrapper">
+        <img class="schnell" src="Bettmeralp12.jpg" width="400px" height="300px" alt="Pizza">
+    </div>
+    <div id="layers">
+        <img src="dog4.jpg" alt="Pizza">
+        <img src="dog2.jpg" alt="Pizza">
+        <img src="dog3.jpg" alt="Pizza">
+    </div>
+</main>
+
+<footer>
+    <div id="footer">
+    <div id="left-footer">Lorem Ipsum in</div>
+
+    <div id="right-footer">Lorem Ipsum ist einfach Dummy-Text der Druck- </div>
+    </div>
+</footer>
+
+<script>
+
+    function myFunction() {
+        var x = document.getElementById("mobile-menu");
+        if (x.style.display === "none") {
+            x.style.display = "row";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"  href="style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<header>
+    <!--upper part of the website-->
+    <nav>
+        <div id="navbar">
+            <div id="logo">
+                <div class="logo">Gr<span>id</span>CSS</div>
+            </div>
+            <div id="links">
+                <a href="index.html">main</a>
+                <a href="pizza.html">Pizza</a>
+                <a href="salat.html">Salat</a>
+                <a href="drinks.html">Drinks</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+            <div class="mobile-btn">
+                <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-2x"></a>
+            </div>
+        </div>
+    </nav>
+    <!--Modifyed -->
+    <di id="mobile-menu" class="mobile-menu">
+        <ul class="mobile-links">
+            <a href="index.html">main</a>
+            <a href="pizza.html">Pizza</a>
+            <a href="salat.html">Salat</a>
+            <a href="drinks.html">Drinks</a>
+            <a href="feedback.html">Feedback</a>
+        </ul>
+    </di>
+</header>
+<body>
+<form class="myForm">
+    <label for="customer_name">Name </label>
+    <input type="text" name="customer_name" id="customer_name" required>
+    <label for="email_address">Email </label>
+    <input type="email" name="email_address" id="email_address">
+    <label for="phone">Phone </label>
+    <input type="tel" name="phone" id="phone">
+    <div id="comment-box">
+        <label for="comments">was können wir besser machen</label>
+        <textarea name="comments" id="comments" maxlength="500"></textarea>
+    </div>
+    <div id="Boxen"><title>Personal</title>
+    <input type="checkbox" id="Leistung1" name="taste1" value="schlecht">
+    <label for="Leistung1"> unzufrieden</label><br>
+    <input type="checkbox" id="Leistung2" name="taste2" value="gut">
+    <label for="Leistung2"> zufrieden</label><br>
+    <input type="checkbox" id="Leistung3" name="taste3" value="sehr gut">
+    <label for="Leistung3">super</label><br><br>
+    </div>
+    <button>Submit</button>
+</form>
+<footer>
+    <div id="footer">
+        <div id="left-footer">Lorem Ipsum in</div>
+
+        <div id="right-footer">Lorem Ipsum ist einfach Dummy-Text der Druck-</div>
+    </div>
+</footer>
+</body>
+</html>

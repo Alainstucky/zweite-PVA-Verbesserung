@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <!--upper part of the website-->
+    <nav>
+        <div id="navbar">
+            <div id="logo">
+                <div class="logo">Gr<span>id</span>CSS</div>
+            </div>
+            <div id="links">
+                <a href="index.html">main</a>
+                <a href="pizza.html">Pizza</a>
+                <a href="salat.html">Salat</a>
+                <a href="drinks.html">Drinks</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+            <div class="mobile-btn">
+                <a id="menu-btn" onclick="myFunction()" class="fa fa-bars fa-3x"></a>
+            </div>
+        </div>
+    </nav>
+    <!--Modifyed -->
+    <div id="mobile-menu" class="mobile-menu">
+        <ul class="mobile-links">
+            <a href="index.html">main</a>
+            <a href="pizza.html">Pizza</a>
+            <a href="salat.html">Salat</a>
+            <a href="drinks.html">Drinks</a>
+            <a href="feedback.html">Feedback</a>
+        </ul>
+    </div>
+</header>
+<section id="collection">
+    <div class="products1">
+        <img src="/images/dogdrink2.jpg" alt="123"><br>
+        <figcaption><img src="warenkorb.png" width="30px" height="30px" alt=""><select name="drinks">
+            <option value="alcohol">alcohol</option>
+            <option value="non-alcohol">kids</option>
+        </select>Wir bieten noch viel mehr
+        </figcaption>
+    </div>
+
+    <div class="products2">
+        <img src="/images/dogdrink2.jpg"><br>
+        <figcaption><img src="warenkorb.png" width="30px" height="30px"><select name="drinks">
+            <option value="alcohol">alcohol</option>
+            <option value="non-alcohol">kids</option>
+        </select>Wir bieten noch viel mehr
+        </figcaption>
+    </div>
+    <div class="products3">
+        <img src="/images/dogdrink3.jpg"><br>
+        <figcaption><img src="warenkorb.png" width="30px" height="30px"> <select name="drinks">
+            <option value="alcohol">alcohol</option>
+            <option value="non-alcohol">kids</option>
+        </select>Wir bieten noch viel mehr
+        </figcaption>
+    </div>
+    <div class="products4">
+        <img src="/images/dogdrink4.jpg"><br>
+        <figcaption><img src="warenkorb.png" width="30px" height="30px"> <select name="drinks">
+            <option value="alcohol">alcohol</option>
+            <option value="non-alcohol">kids</option>
+        </select> Wir bieten noch viel mehr
+        </figcaption>
+    </div>
+    <div class="products5">
+        <img src="/images/dogdrink5.jpg" alt="1234"><br>
+        <figcaption><img src="warenkorb.png" width="30px" height="30px"> <select name="drinks">
+            <option value="alcohol">alcohol</option>
+            <option value="non-alcohol">kids</option>
+        </select> bieten noch viel mehr
+        </figcaption>
+    </div>
+</section>
+<footer>
+    <div id="footer">
+        <div id="left-footer">Lorem Ipsum in</div>
+
+        <div id="right-footer">Lorem Ipsum ist einfach Dummy-Text der Druck-</div>
+    </div>
+</footer>
+
+<script>
+    //These set's the mobile menu thing
+    function myFunction() {
+        var x = document.getElementById( "mobile-menu" );
+        if (x.style.display === "none") {
+            x.style.display = "fa-non";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
